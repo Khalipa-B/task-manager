@@ -49,7 +49,7 @@ task-manager/
 
 **Create a Task**
 - POST /tasks:
-Body:
+- Body:
 {
   "title": "Buy groceries",
   "completed": false
@@ -63,7 +63,7 @@ Body:
 
 **Update Task**
 - PUT /tasks/:id
-Body:
+- Body:
 {
   "title": "Do laundry",
   "completed": true
