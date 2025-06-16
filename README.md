@@ -33,48 +33,49 @@ task-manager/
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/task-manager.git
-cd task-manager
-Install dependencies:
+- git clone https://github.com/yourusername/task-manager.git
+- cd task-manager
+  
+2. Install dependencies:
+- npm install
 
-npm install
-Start MongoDB locally (make sure it's running on mongodb://localhost:27017).
+3. Start MongoDB locally (make sure it's running on mongodb://localhost:27017).
 
-Start the server:
-node server.js
+4. Start the server:
+- node server.js
 The API should now be running at: http://localhost:3000
 
-API Endpoints
+**API Endpoints**
 
--Create a Task
-POST /tasks
+**Create a Task**
+- POST /tasks:
 Body:
 {
   "title": "Buy groceries",
   "completed": false
 }
 
--Get All Tasks
-GET /tasks
+**Get All Tasks**
+-GET /tasks
 
--Get Task by ID
+**Get Task by ID**
 GET /tasks/:id
 
--Update Task
-PUT /tasks/:id
+**Update Task**
+- PUT /tasks/:id
 Body:
 {
   "title": "Do laundry",
   "completed": true
 }
 
--(Optional) Delete Task
+**(Optional) Delete Task**
 DELETE /tasks/:id
 
--Testing with Postman
+**Testing with Postman**
 You can test the API using Postman by sending HTTP requests to the endpoints listed above.
 
-Author:
+**Author**
 Khalipa Baba
 Passionate Full Stack Developer in training
 🌍 South Africa
