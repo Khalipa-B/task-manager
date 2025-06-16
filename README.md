@@ -56,10 +56,10 @@ Body:
 }
 
 **Get All Tasks**
--GET /tasks
+- GET /tasks
 
 **Get Task by ID**
-GET /tasks/:id
+- GET /tasks/:id
 
 **Update Task**
 - PUT /tasks/:id
@@ -70,14 +70,14 @@ Body:
 }
 
 **(Optional) Delete Task**
-DELETE /tasks/:id
+- DELETE /tasks/:id
 
 **Testing with Postman**
-You can test the API using Postman by sending HTTP requests to the endpoints listed above.
+- You can test the API using Postman by sending HTTP requests to the endpoints listed above.
 
 **Author**
-Khalipa Baba
+- Khalipa Baba - 
 Passionate Full Stack Developer in training
-🌍 South Africa
+- South Africa
 
 
