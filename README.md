@@ -42,8 +42,8 @@ task-manager/
 3. Start MongoDB locally (make sure it's running on mongodb://localhost:27017).
 
 4. Start the server:
-- node server.js
-The API should now be running at: http://localhost:3000
+- node server.js 
+(The API should now be running at: http://localhost:3000)
 
 **API Endpoints**
 
